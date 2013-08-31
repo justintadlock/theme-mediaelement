@@ -317,16 +317,15 @@
 
 	/* Individual control sections. */
 	.mejs-controls div {
-		display: block;
-		float:   left;
-		margin:  0;
-		padding: 0;
-		width:   26px;
-		height:  26px;
-		border:  none;
-        font-size: 11px;
-        line-height: 11px;
-        font-family: Helvetica, Arial;
+		display:     block;
+		float:       left;
+		margin:      0;
+		padding:     0;
+		width:       26px;
+		height:      26px;
+		border:      none;
+		font-size:   11px;
+		line-height: 11px;
 	}
 
 	/* Individual buttons. */
