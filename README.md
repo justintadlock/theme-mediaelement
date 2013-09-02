@@ -53,3 +53,19 @@ Basic structure of the media player:
 			<div class="mejs-clear">...</div>
 		</div>
 	</div>
+
+=== Background Images ===
+
+The stylesheet has the background images commented out by default.  This is so that themes aren't unnecessarily loading extra resources.  If you wish to use the default background images, use the following CSS code (correct the paths if necessary).
+
+	.mejs-overlay-button {
+		background: url( 'images/bigplay.png' ) no-repeat;
+	}
+
+	.mejs-overlay-loading span {
+		background: transparent url( 'images/loading.gif' ) 50% 50% no-repeat;
+	}
+
+	.mejs-button button {
+		background: transparent url( 'images/controls.png' ) no-repeat;
+	}

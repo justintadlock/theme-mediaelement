@@ -186,7 +186,7 @@
 				width:    100px;
 				height:   100px;
 				margin:   -50px 0 0 -50px;
-				background: url( 'images/bigplay.png' ) no-repeat;
+				/*background: url( 'images/bigplay.png' ) no-repeat;*/
 			}
 
 				/* Only needed if you use an .svg file for your normal background. */
@@ -220,7 +220,7 @@
 				width:      80px;
 				height:     80px;
 				margin:     -40px 0 0 -40px;
-				background: transparent url( 'images/loading.gif' ) 50% 50% no-repeat;
+				/*background: transparent url( 'images/loading.gif' ) 50% 50% no-repeat;*/
 			}
 
 	/* === Captions Layer (not supported in WP core as of 3.6). === */
@@ -386,7 +386,7 @@
 		line-height:     0;
 		text-decoration: none;
 
-		background: transparent url( 'images/controls.png' ) no-repeat;
+		/*background: transparent url( 'images/controls.png' ) no-repeat;*/
 	}
 
 		.no-svg .mejs-button button {}
