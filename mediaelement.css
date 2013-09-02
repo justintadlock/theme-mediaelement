@@ -6,9 +6,15 @@
  * and other stylistic elements.  This stylesheet exists as a base for layout and positioning.  However, 
  * themes can also overwrite these things.
  *
- * @version 20130902
- * @link    https://github.com/justintadlock/theme-mediaelement
- * @link    http://mediaelementjs.com
+ * This is a modified version of the default stylesheet provided by the MediaElement.js project.
+ *
+ * @version   20130902
+ * @license   http://opensource.org/licenses/MIT
+ * @author    John Dyer
+ * @author    Justin Tadlock <justin@justintadlock.com>
+ * @copyright Copyright (c) 2013
+ * @link      https://github.com/justintadlock/theme-mediaelement
+ * @link      http://mediaelementjs.com
  */
 
 /**
