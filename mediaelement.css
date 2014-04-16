@@ -8,7 +8,7 @@
  *
  * This is a modified version of the default stylesheet provided by the MediaElement.js project.
  *
- * @version   20130902
+ * @version   20140416
  * @license   http://opensource.org/licenses/MIT
  * @author    John Dyer
  * @author    Justin Tadlock <justin@justintadlock.com>
@@ -861,12 +861,129 @@
  * 05: Clear - Clears any floated elements at the end of the container.
  * --------------------------------------------------------------------------- */
 
-.mejs-clear {
+.mejs-clear,
+.wp-playlist-item {
     clear: both;
 }
 
 /**
- * 06: Todo - Items that need to be worked on.
+ * 06: Playlists - WordPress-created playlists.
+ * --------------------------------------------------------------------------- */
+
+.wp-playlist {
+	margin:      0 0 1.5rem;
+	padding:     1.5rem;
+	border:      1px solid #999;
+}
+
+	.wp-playlist-light {
+		/**
+		background: #fff;
+		color:      #000;
+		/**/
+	}
+
+	.wp-playlist-dark {
+		/**
+		color:      #fff;
+		background: #000;
+		/**/
+	}
+
+	.wp-playlist video {
+		display:   inline-block;
+		max-width: 100%;
+	}
+
+	.wp-playlist audio {
+		display:   none;
+		max-width: 100%;
+		width:     100%;
+	}
+
+	.wp-playlist .mejs-container {
+		margin: 0;
+		width:  100%;
+	}
+
+		.wp-playlist .mejs-controls .mejs-button button {
+			outline: 0;
+		}
+
+	/* All captions. */
+	.wp-playlist-caption {
+		max-width:     88%;
+		overflow:      hidden;
+		text-overflow: ellipsis;
+	}
+
+		.wp-playlist-item-title {}
+
+		.wp-playlist-item-artist {}
+
+	/* Currently playing. */
+	.wp-playlist-current-item {
+		margin-bottom: 1.5rem;
+	}
+
+		.wp-playlist-current-item img {
+			max-width:    60px;
+			height:       auto;
+		}
+			.ltr .wp-playlist-current-item img {
+				float:        left;
+				margin-right: 1.5rem;
+			}
+			.rtl .wp-playlist-current-item img {
+				float:        right;
+				margin-left:  1.5rem;
+			}
+
+		.wp-playlist-item-meta {
+			display: block;
+		}
+
+		.wp-playlist-item-album {}
+
+	/* Track list after the current item. */
+	.wp-playlist-tracks {
+		margin-top: 1.5rem;
+	}
+
+		/* Playlist items in the list (not currently playing). */
+		.wp-playlist-item {
+			overflow:      hidden;
+			cursor:        pointer;
+			margin-bottom: 0.75rem;
+		}
+
+			.wp-playlist-item:last-child {
+				margin-bottom: 0;
+				border-bottom: none;
+			}
+
+		.wp-playlist-light .wp-playlist-item {}
+
+		.wp-playlist-dark .wp-playlist-item {}
+
+		/* Currently-playing item in the track list. */
+		.wp-playlist-playing { font-weight: bold; }
+
+			.wp-playlist-light .wp-playlist-playing {}
+
+			.wp-playlist-dark .wp-playlist-playing {}
+
+			/* Captions in the list. */
+			.wp-playlist-item .wp-playlist-caption {}
+
+				.ltr .wp-playlist-item .wp-playlist-caption { float: left;  }
+				.rtl .wp-playlist-item .wp-playlist-caption { float: right; }
+
+				.ltr .wp-playlist-item .wp-playlist-item-length { float: right; }
+				.rtl .wp-playlist-item .wp-playlist-item-length { float: left;  }
+
+/**
+ * 07: Todo - Items that need to be worked on.
  * --------------------------------------------------------------------------- */
 
 /* === Context menu ??? === */
