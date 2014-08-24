@@ -97,7 +97,9 @@
 	audio.wp-audio-shortcode {}
 
 	.mejs-mediaelement video {}
-	video.wp-video-shortcode {}
+	video.wp-video-shortcode {
+		max-width: 100%; /* make media element responsive */
+	}
 
 	/* Fullscreen */
 	.mejs-container-fullscreen .mejs-mediaelement, 
@@ -616,7 +618,9 @@
 
 		.mejs-volume-button:hover {}
 
-		.mejs-volume-button button {}
+		.mejs-volume-button button {
+			/*background: transparent url( 'images/controls.png' ) no-repeat -16px -16px;*/
+		}
 
 		.mejs-volume-button .mejs-mute button {
 			background-position: -16px -16px;
