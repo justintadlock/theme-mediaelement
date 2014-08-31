@@ -619,7 +619,7 @@
 		.mejs-volume-button:hover {}
 
 		.mejs-volume-button button {
-			/*background: transparent url( 'images/controls.png' ) no-repeat -16px -16px;*/
+			background: transparent url( 'images/controls.png' ) no-repeat -16px -16px;
 		}
 
 		.mejs-volume-button .mejs-mute button {
