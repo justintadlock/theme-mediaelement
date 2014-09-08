@@ -618,11 +618,11 @@
 
 		.mejs-volume-button button {}
 
-		.mejs-volume-button .mejs-mute button {
+		.mejs-volume-button.mejs-mute button {
 			background-position: -16px -16px;
 		}
 
-		.mejs-volume-button .mejs-unmute button {
+		.mejs-volume-button.mejs-unmute button {
 			background-position: -16px 0;
 		}
 
