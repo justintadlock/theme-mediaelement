@@ -457,17 +457,22 @@
 		padding-top: 5px;
 	}
 
+		/* Wrapper for the time rail elements. */
+		.mejs-controls .mejs-time-slider { 
+		} 
+
 		/* Individual elements within the time rail */
 		.mejs-time-rail span {
 			display:  block;
 			position: absolute;
-			width:    180px;
 			height:   10px;
 			cursor:   pointer;
 		}
 
 		/* Total time. */
 		.mejs-time-rail .mejs-time-total {
+			display:  block; 
+			position: relative;
 			margin:     5px;
 			background: #222;
 		}
