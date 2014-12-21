@@ -454,9 +454,9 @@
 	/* Wrapper div for the time rail. */
 
 	.mejs-controls .mejs-time-rail {
-		direction:   ltr;
-		width:       200px;
-		padding-top: 5px;
+		direction: ltr;
+		width:     200px;
+		padding:   5px 5px 0;
 	}
 
 		/* Wrapper for the time rail elements. */
@@ -464,7 +464,8 @@
 		} 
 
 		/* Individual elements within the time rail */
-		.mejs-time-rail span {
+		.mejs-time-rail span,
+		.mejs-time-rail > a {
 			display:  block;
 			position: absolute;
 			height:   10px;
@@ -473,9 +474,8 @@
 
 		/* Total time. */
 		.mejs-time-rail .mejs-time-total {
-			display:  block; 
-			position: relative;
-			margin:     5px;
+			position:   relative;
+			margin:     5px 0;
 			background: #222;
 		}
 
