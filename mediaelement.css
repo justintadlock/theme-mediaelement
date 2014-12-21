@@ -858,13 +858,22 @@
 					}
 
 /**
- * 05: Clear - Clears any floated elements at the end of the container.
+ * 05: Clear and Off-screen- Clears elements. Hides screen-reader text.
  * --------------------------------------------------------------------------- */
 
 .mejs-clear,
 .wp-playlist-item {
     clear: both;
 }
+
+.mejs-offscreen {
+	position: absolute;
+	top:      -9999em;
+}
+
+	.ltr .mejs-offscreen { left:  -9999em; }
+
+	.rtl .mejs-offscreen { right: -9999em; }
 
 /**
  * 06: Playlists - WordPress-created playlists.
