@@ -365,7 +365,8 @@
 }
 
 	/* Individual control sections. */
-	.mejs-controls div {
+	.mejs-controls > div,
+	.mejs-controls > a {
 		display:     block;
 		float:       left;
 		margin:      0;
@@ -684,12 +685,13 @@
 		height:   26px;
 		width:    60px;
 		position: relative;
+		display:  table;
 	}
 
 		/* Volume total. */
 		.mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
 			position:   absolute;
-			top:        11px;
+			top:        21px;
 			left:       0;
 			width:      50px;
 			height:     8px;
@@ -702,7 +704,7 @@
 		/* Volume current. */
 		.mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
 			position:   absolute;
-			top:        11px;
+			top:        21px;
 			left:       0;
 			width:      50px;
 			height:     8px;
