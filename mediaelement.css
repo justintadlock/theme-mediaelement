@@ -444,11 +444,12 @@
 			display: block;
 			float:   left;
 			width:   auto;
-			margin:  1px 2px 0 0;
+			margin:  2px 2px 0 0;
 			color:   #fff;
 		}
 
 		.mejs-time .mejs-currenttime {}
+		.mejs-time .mejs-duration {}
 
 	/* Wrapper div for the time rail. */
 
