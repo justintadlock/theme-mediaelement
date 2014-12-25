@@ -68,17 +68,23 @@ Add the following code to your theme's `functions.php` file to disable the WordP
 
 The stylesheet has the background images commented out by default.  This is so that themes aren't unnecessarily loading extra resources.  If you wish to use the default background images, use the following CSS code (correct the paths if necessary).
 
-	.mejs-overlay-button {
-		background: url( 'images/bigplay.png' ) no-repeat;
-	}
+.mejs-overlay-button {
+	background-image: url( 'images/bigplay.png' );
+	background-repeat: no-repeat;
+}
 
-	.mejs-overlay-loading span {
-		background: transparent url( 'images/loading.gif' ) 50% 50% no-repeat;
-	}
+.mejs-overlay-loading span {
+	background-color: transparent;
+	background-image: url( 'images/loading.gif' );
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
 
-	.mejs-button button {
-		background: transparent url( 'images/controls.png' ) no-repeat;
-	}
+.mejs-button button {
+	background-color: transparent;
+	background-image: url( 'images/controls.png' );
+	background-repeat: no-repeat;
+}
 
 ## Structure
 
